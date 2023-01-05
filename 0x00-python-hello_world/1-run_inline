@@ -1,5 +1,3 @@
 #!/bin/bash
 
-# print best print saved in environment variable
-
 PYCODE='print(f"Best School: {88+10}")'

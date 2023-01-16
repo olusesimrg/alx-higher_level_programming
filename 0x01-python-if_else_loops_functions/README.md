@@ -1,1 +1,1 @@
-this is a readme on the functions and condition statement
+This is a readme on the functions and condition statement

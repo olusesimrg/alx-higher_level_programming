@@ -3,4 +3,5 @@
 
 class Rectangle:
     """this is an empty class that represents a rectangle"""
+    def __init__(self);
     pass

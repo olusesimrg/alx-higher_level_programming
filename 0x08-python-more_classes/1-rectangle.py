@@ -1,20 +1,21 @@
 #!/usr/bin/python3
 """ this defines a class rectagle """
 
+
 class Rectangles:
     """
     the class has two attributes 
     *width
     *height
     and both will have property and setter function defination
-
     """
+
     def __init__(self, width=0, height=0):
 
         """instantiates width and height"""
 
         self.width = width
-        self.height =height
+        self.height = height
 
     @property
     def width(self):

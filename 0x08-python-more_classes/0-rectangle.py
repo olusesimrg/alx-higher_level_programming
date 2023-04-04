@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""this is a class that defines a rectangle"""
+"""A class that defines a rectangle"""
 
 class Rectangle:
-    """this is an empty class that represents a rectangle"""
-    def __init__(self);
+    """
+    An empty class that represents a rectangle
+    """
     pass

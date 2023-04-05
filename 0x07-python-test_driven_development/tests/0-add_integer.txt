@@ -1,1 +1,31 @@
 TEST CASES:
+
+a is int, b is int
+a is float, b is int
+a is float, b is float
+only one argument
+more than 2 argument
+string supplied
+
+============================================================
+
+Case One:
+	>>> add_integer = __import__('0-add_integer').add_integer
+	>>> add_integer(6, 7)
+	13
+
+============================================================
+
+Case Two: a is int & b is float
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+	>>> add_integer(5, 10.8)
+	15
+
+============================================================
+
+Case Three: a is floot && b is float
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+        >>> add_integer(15, 10.8)
+        25

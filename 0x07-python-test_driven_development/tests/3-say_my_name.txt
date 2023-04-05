@@ -1,1 +1,39 @@
-TEST CASES:
+TEST CASES
+	- first_name_ & last_name_: strings
+	- first_name_ & last_name_: Boolean
+	- first_name_: string, last_name_: not string
+	- no arguments
+	- no last name
+	- both arguments not strings
+	-first_name_ undefined
+
+=============================================================================================
+
+Test Case One: first_name_ & last_name_: strings
+
+ 	>>> say_my_name = __import__("3-say_my_name").say_my_name
+  	>>> say_my_name('Olusesi', 'Gbolahan')
+  	My name is Olusesi Gbolahan
+
+=============================================================================================
+
+Test case two:
+
+	>>> say_my_name = __import__("3-say_my_name").say_my_name
+  	>>> say_my_name(True, False)
+  	Traceback (most recent call last):
+    	...
+  	TypeError: first_name must be a string
+
+=============================================================================================
+
+Test case three:	
+
+	>>> say_my_name = __import__("3-say_my_name").say_my_name
+  	>>> say_my_name('Olusesi', false)
+  	Traceback (most recent call last):
+    	...
+  	TypeError: last_name must be a string
+
+=============================================================================================
+
